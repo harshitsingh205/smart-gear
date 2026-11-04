@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+
+  <meta name="description" content="Smart Gear is an AI-powered motorcycle riding gear rental and demand prediction platform for adventure tourists traveling to Ladakh, Spiti, Manali, and Rishikesh.">
+  <meta name="keywords" content="Smart Gear, Motorcycle Rental, Ladakh Riding Gear, Khardung La, Spiti Valley, Motorcycle Touring, AI Demand Prediction">
+  <meta name="author" content="Smart Gear Inc.">
+  <meta name="theme-color" content="#1E56A0">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Smart Gear — Gear Up. Ride Safe. Ride Ready.">
+  <meta property="og:description" content="AI-powered motorcycle riding gear rental & demand forecasting platform for adventure riders.">
+  <meta property="og:image" content="favicon.svg">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Smart Gear">
+  <link rel="apple-touch-icon" href="favicon.svg">
+
+  <!-- Favicon: Modern SVG & Fallback PNG (Left-facing helmet) -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+  <link rel="alternate icon" type="image/png" href="favicon.png"/>
+
+  <title>Smart Gear — Gear Up. Ride Safe. Ride Ready.</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // Unregister any stale service workers from previous builds to ensure fresh loads
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for (var i = 0; i < registrations.length; i++) {
+          registrations[i].unregister();
+        }
+      });
+    }
+    if ('caches' in window) {
+      caches.keys().then(function(names) {
+        for (var i = 0; i < names.length; i++) {
+          caches.delete(names[i]);
+        }
+      });
+    }
+  </script>
+</head>
+<body style="margin: 0; background-color: #1F242D;">
+  <script src="flutter_bootstrap.js?v=104" async></script>
+</body>
+</html>

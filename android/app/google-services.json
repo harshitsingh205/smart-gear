@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1037760086655",
+    "project_id": "smart-gear-bef4a",
+    "storage_bucket": "smart-gear-bef4a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037760086655:android:c2dedc9feecd17e855354a",
+        "android_client_info": {
+          "package_name": "com.smartgear.smart_gear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037760086655-atpr96vhhbs6jvva48j0vu51c3jl1vgt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartgear.smart_gear",
+            "certificate_hash": "28287328cc0e3c8e376eb64ad1580e42617a537a"
+          }
+        },
+        {
+          "client_id": "1037760086655-ak7oeoaojiaac9mbf8had9r7mhql1m5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGNllC_mmTZBK4puSIHEuGUAj7ZIks3vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037760086655-ak7oeoaojiaac9mbf8had9r7mhql1m5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
